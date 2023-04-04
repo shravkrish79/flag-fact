@@ -1,6 +1,6 @@
 .map-container .leaflet-container {
-    height: 10vh;
-    width:95%;
+    height: 25vh;
+    width:80%;
     position: relative;
     margin: 50px auto;
     border: 1px solid gray;
@@ -23,7 +23,7 @@
 
   @media (min-width: 750px) and (max-width:1020px){
     .map-container .leaflet-container {
-        height: 10vh;
+        height: 25vh;
         width:60%
     }
 }

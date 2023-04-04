@@ -21,7 +21,7 @@ export default function DisplayFlag({ data }) {
         event.preventDefault();
         const searchkey = event.target.value;
         if (searchkey!=='') {
-            const filterData = flagData.filter((recs) => {
+            const filterData = data.filter((recs) => {
                 const searchTerm = searchkey.toLowerCase();
                 const orgdata = recs.name.common.toLowerCase();
                 return (searchTerm && orgdata.startsWith(searchTerm));

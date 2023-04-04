@@ -7,6 +7,7 @@ body{
     min-height: 100vh;
     width: 100vw;
     text-align: center;
+    scroll-behavior: smooth;
 }
 
 img, svg{

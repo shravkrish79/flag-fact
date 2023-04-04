@@ -7,6 +7,7 @@
     bottom: 0;
     background-color: #000;
     opacity: 1;
+    overflow-y: scroll;
 }
 
 #modal .background {
@@ -20,9 +21,9 @@
     z-index: 101;
 }
 
-.modal-close-btn{
+.modal-close-btn {
     position: fixed;
-    top:0;
+    top: 0;
     right: 0;
     height: 36px;
     width: 36px;
@@ -34,3 +35,13 @@
 }
 
 
+@media screen and (max-width:968px) {
+    #modal .background {
+        margin-top: 250px;
+        width: 80vw;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+    }
+
+}

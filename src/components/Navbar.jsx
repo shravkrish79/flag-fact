@@ -9,7 +9,7 @@ export default function Navbar({ data }) {
         event.preventDefault();
         const selectedoption = event.target.value;
         if(selectedoption!==""){
-            const filterData = flagData.filter((recs)=> recs.continents.includes(selectedoption));
+            const filterData = data.filter((recs)=> recs.continents.includes(selectedoption));
             setFlagData(filterData);
         }
         else{
