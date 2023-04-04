@@ -1,0 +1,44 @@
+.loading-page{
+    width: 70%;
+    min-height: 100vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.load-content{
+    margin: 20% auto;
+}
+
+.load-content h1{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: justify;
+    padding: 25px 5vw;
+}
+
+h3{
+    font-size: 24px;
+    padding: 16px 0;
+    text-align: center  ;
+}
+
+.load-content span{
+    color: var(--color-secondary);
+    padding: 0;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+@media (min-width:1020px) {
+    p{
+        padding: 50px 20vw;
+    }
+}

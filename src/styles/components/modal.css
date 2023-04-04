@@ -1,0 +1,36 @@
+#modal {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 1;
+}
+
+#modal .background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f3f3f3;
+    width: 40vw;
+    height: auto;
+    z-index: 101;
+}
+
+.modal-close-btn{
+    position: fixed;
+    top:0;
+    right: 0;
+    height: 36px;
+    width: 36px;
+    border: none;
+    cursor: pointer;
+    font-weight: 800;
+    z-index: 101;
+    padding: 0 10px;
+}
+
+

@@ -1,0 +1,12 @@
+/* global styles */
+@import "./variable.css";
+@import "./app.css";
+
+/* component styles */
+@import "../components/navbar.css";
+@import "../components/loading.css";
+@import "../components/displayflag.css";
+@import "../components/flagdetails.css";
+
+@import "../components/modal.css";
+@import "../components/locationmap.css";

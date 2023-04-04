@@ -1,0 +1,27 @@
+#navbar{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #333333;
+    color: #fff;
+    z-index: 1500;
+}
+
+nav{
+    width: 60vw;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+nav span{
+    font-size: 32px;
+}
+
+#continent-select{
+    font-size: 26px;
+    width: 20%;
+}
