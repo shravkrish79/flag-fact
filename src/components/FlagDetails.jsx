@@ -11,6 +11,8 @@ export default function FlagDetails({ data }) {
         return result;
     }
 
+    for(var propname in data)
+
     return (
         <div className="flag-details">
             <h1>{data.name.common}</h1>
@@ -27,7 +29,7 @@ export default function FlagDetails({ data }) {
             <h2><span>Languages:</span> {getList(data.languages)}</h2>
 
             <div className='map'>
-                <LocationMap data={data.latlng} locationName={data.name.common}/>
+                <LocationMap data={data.latlng} locationName={data.name.common} />
             </div>
         </div>
     )
